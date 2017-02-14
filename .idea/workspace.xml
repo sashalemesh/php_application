@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437323c6-6436-4708-a466-900137b16e9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advertisements/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tz.php" afterPath="" />
-    </list>
+    <list default="true" id="437323c6-6436-4708-a466-900137b16e9e" name="Default" comment="" />
     <ignored path="php_application.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -50,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablicha.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tablicha.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setings/tablicha.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
@@ -75,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config1.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setings/config1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="660">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="104" />
               <folding>
                 <marker date="1487095889011" expanded="true" signature="529:641" ph="..." />
@@ -301,12 +295,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487081227257</updated>
-      <workItem from="1487081228967" duration="14851000" />
+      <workItem from="1487081228967" duration="15226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14851000" />
+    <option name="totallyTimeSpent" value="15226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -460,17 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setings/config1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="104" />
-          <folding>
-            <marker date="1487095889011" expanded="true" signature="529:641" ph="..." />
-            <marker date="1487095889011" expanded="true" signature="575:638" ph="INSERT INTO ${$db_table_user}... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/dab215c4/9ac56d57-2fe3-4a52-a735-695c80c3cedb/tzdatabase.advertisements">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -524,6 +507,17 @@
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <marker date="1487097715917" expanded="true" signature="238:361" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setings/config1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="104" />
+          <folding>
+            <marker date="1487095889011" expanded="true" signature="529:641" ph="..." />
+            <marker date="1487095889011" expanded="true" signature="575:638" ph="INSERT INTO ${$db_table_user}... " />
           </folding>
         </state>
       </provider>
