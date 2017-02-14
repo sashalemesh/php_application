@@ -16,9 +16,5 @@
 // Установка кодировки соединения
     mysql_query("SET NAMES 'utf8'", $db);
 
-//$name = 'Валяя';
-//    $result = mysql_query("INSERT INTO " . $db_table_user . " (user_name) VALUES ('$name')");
-//    $result = mysql_query("INSERT INTO " . $db_table_adver . " (title,user_id) VALUES ('$name','4')");
-//}
 
 

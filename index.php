@@ -1,5 +1,6 @@
 <?php
 header("Content-Type:text/html;charset=utf-8");
+include "setings/dobavlenie.php";
 ?>
 <html>
 <head>
@@ -13,23 +14,18 @@ header("Content-Type:text/html;charset=utf-8");
 <h4><a href='users/index.php'>Users</a><br></h4>
 <h4><a href='advertisements/index.php'>Advertisements</a><br></h4>
 
-
-<?php
-include "setings/config1.php";
-$name = 'Петр';
-$name1 = 'Продам петуха';
-
-
-   // $result = mysql_query("INSERT INTO " . $db_table_user . " (user_name) VALUES ('wer1')");
-   // $result = mysql_query("INSERT INTO " . $db_table_adver . " (title,user_id) VALUES ('Продам петуха1',
-//(SELECT user_id FROM $db_table_user WHERE user_name = 'wer1'))");
+    <form method="POST" class="center-block form-review" action="<?php $_SERVER["PHP_SELF"]?>">
+        <h1>Пользователи</h1>
+        <label for="name">Имя для добавления:</label><br/>
+        <input name="name" class="form-control" type="text" placeholder="Имя"/>
+        <label for="advert">Ваша рекламма:</label><br/>
+        <textarea class="form-control" name="advert" id="review" rows="5" required placeholder="Рекламма"></textarea>
 
 
+        <input type="submit" class="btn btn-primary btn-block" value="Отправить"/>
+    </form>
 
 
-
-
-?>
 </div>
 <!--Вывод меню -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

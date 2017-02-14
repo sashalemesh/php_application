@@ -18,7 +18,7 @@ include "../setings/index1.php";
         <th>id</th>
         <th>Пользователь</th>
     </tr>
-    <!-- Устанавливаем соединение с базой данных-->
+    
     <?php
     include "../setings/tablicha.php";
     ?>

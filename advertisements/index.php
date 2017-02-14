@@ -20,7 +20,7 @@ include "../setings/index2.php";
             <th>Пользователь</th>
             <th>title</th>
         </tr>
-        <!-- Устанавливаем соединение с базой данных-->
+
         <?php
         include "../setings/tablicha2.php";
         ?>
